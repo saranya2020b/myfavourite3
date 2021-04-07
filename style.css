@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+  
+}
+img{
+    height: 40%;
+    width: 20%;
+}
+#pic{
+    height: 20%;
+    width: 10%;
+}
+#menu{
+    background: linear-gradient(pink 0%,yellow 50%, lightblue 100%);
+}
+.menu{
+   list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+#about{
+    background-color: pink;
+}
+.menu:hover{
+    background-color: #fff;
+}
+.links{
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+        }
+#Myfavouriteartsupplies{
+    background-color: coral;
+}
+#Myworks{
+    
+background-color:yellow;
+}
+#my_inspiration{
+    background-color: chartreuse;
+}
+  
+    

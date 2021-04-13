@@ -14,13 +14,16 @@ img{
     background: linear-gradient(pink 0%,yellow 50%, lightblue 100%);
 }
 .menu{
-   list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    list-style:none;
+    font-family:sans-serif;
+    position: fixed;
+    top: 0px;
+    
     z-index: 10;
     cursor: pointer;
+    background: #fff;
+    width: 100%;
+    margin-top: 0px;
 }
 #about{
     background-color: pink;
@@ -29,12 +32,12 @@ img{
     background-color: #fff;
 }
 .links{
-    float: left;
-    color: black;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    display: inline;
+    color: #fff;
+   
+    padding-left: 33px;
+    padding-right: 25px;
+    
     font-family: fantasy;
     font-size: 20px;
         }
@@ -48,5 +51,21 @@ background-color:yellow;
 #my_inspiration{
     background-color: chartreuse;
 }
-  
+#contacts{
+    background: firebrick;
+    
+}
+#contacts iframe{
+    width: 100%;
+    
+}
+.contacts_1 h3{
+    display: inline;
+    
+}
+.contacts_1 a{
+    color: white;
+    text-shadow: none;
+}
+
     
